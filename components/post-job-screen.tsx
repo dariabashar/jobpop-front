@@ -59,7 +59,7 @@ export default function PostJobScreen() {
         pay: {
           amount: parseFloat(formData.payAmount),
           currency: "USD",
-          type: formData.payType
+          type: formData.payType as 'hourly' | 'fixed' | 'commission'
         },
         location: {
           address: formData.locationAddress,
