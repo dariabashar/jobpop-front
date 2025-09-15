@@ -35,6 +35,8 @@
    NEXT_PUBLIC_API_URL=https://your-backend-url.com/api
    ```
 
+**Примечание:** Файл `netlify.toml` уже настроен в проекте для автоматической конфигурации.
+
 ### 3. Railway
 
 **Шаги:**
